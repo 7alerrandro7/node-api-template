@@ -50,8 +50,8 @@ $ make release
 
 Access [Rancher](http://40.122.125.187:8080/) then login with these credentials:
 
-* Username: valeAdmin
-* Password: @valeDigital2020
+* Username: admin
+* Password: @digital2020
 
 Create a container with the correct image.
 
