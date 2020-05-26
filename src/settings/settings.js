@@ -1,9 +1,14 @@
 require('dotenv').config();
 
-const setEnvOrDefault = (name, type) => {
+const setEnvOrDefault = (name, type = "string") => {
     let res = process.env[name.toUpperCase()] || process.env[name.toLowerCase()]
-    if(type == 'boolean'){
-        res = (res == "true") ? true : false;
+    switch (type) {
+        case 'boolean':
+            res = (res == "true") ? true : false;
+            break;
+        case 'int':
+            res = parseInt(res);
+            break;
     }
     return res;
 };
