@@ -48,7 +48,7 @@ In the root folder run:
 $ make release
 ```
 
-Access [Rancher](http://40.122.125.187:8080/) then login with these credentials:
+Access Rancher then login with these credentials:
 
 * Username: admin
 * Password: @digital2020
